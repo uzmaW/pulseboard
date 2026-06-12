@@ -96,6 +96,27 @@ pulseboard/
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design decisions, domain models, and infrastructure patterns.
 
+## Deep Dive
+
+Read **[PULSEBOARD_EBOOK.md](PULSEBOARD_EBOOK.md)** for the full technical guide:
+
+| Chapter | Topic |
+|---------|-------|
+| 1 | Introduction — What PulseBoard Is and Why It Exists |
+| 2 | Language & Runtime — Elixir, Erlang/OTP, and the BEAM VM |
+| 3 | Framework Layer — Phoenix, LiveView, Absinthe, and OTP Applications |
+| 4 | Umbrella Architecture — Domain-Driven Design in Practice |
+| 5 | Domain Models — The Core Business Logic |
+| 6 | Compliance Engine — Regional Data Governance, Audit Trails, Consent, and Retention |
+| 7 | Observability — Telemetry, ClickHouse, and the Path to OpenTelemetry |
+| 8 | GitOps — Terraform, Kustomize, and ArgoCD for Deployment |
+| 9 | Plugin Architecture — Extensible Tenant Workflows |
+| 10 | Infrastructure — Vault, LiveKit, and Secrets Management |
+| 11 | Frontend — LiveView, Tailwind CSS, and Corporate-Grade UX |
+| 12 | Testing Strategy — From Unit to Integration |
+| 13 | Deployment — From Docker Compose to Kubernetes |
+| 14 | Appendix — Architecture Decision Records Summary |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development workflow, coding standards, and PR guidelines.
