@@ -1,0 +1,49 @@
+# PulseBoard .gitignore
+
+# Dependencies
+/deps/
+/ebin/
+/_build/
+/cover/
+
+# Generated on crash
+erl_crash.dump
+
+# Static artifacts
+/assets/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# Terraform
+infra/**/.terraform/
+infra/**/*.tfstate
+infra/**/*.tfstate.backup
+infra/**/*.tfvars
+!infra/**/*.tfvars.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Phoenix
+/priv/static/
+
+# ElixirLS
+.elixir_ls/
